@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BusinessDisplay">
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/ABD_businessname"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:text="Business Name"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_gravity="center"
+            android:id="@+id/ABD_businessaddress"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:text="Business Address"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_gravity="center"
+            android:id="@+id/ABD_businessphone"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:text="Business Phone"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="24sp" />
+
+
+        <TextView
+            android:id="@+id/ABD_receptionhours"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="reception hours:"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_marginTop="8dp"
+            android:id="@+id/ABD_sunday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="sunday"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_marginTop="8dp"
+            android:id="@+id/ABD_monday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="monday"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_marginTop="8dp"
+            android:id="@+id/ABD_tuesday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="tuesday"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_marginTop="8dp"
+            android:id="@+id/ABD_wednesday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="wednesday"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_marginTop="8dp"
+            android:id="@+id/ABD_thursday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="thursday"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="20dp" />
+
+        <Button
+            android:layout_marginTop="8dp"
+            android:id="@+id/ABD_submitqueue"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="submit queue!"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

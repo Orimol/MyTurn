@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SubmitQueue">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/ASQ_selectadate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:text="Select a Date"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/ASQ_selectatime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:text="Select Time"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="368dp"
+        android:layout_height="381dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout5">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/ASQ_queue_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="queue_1"
+            android:textSize="30sp"
+            tools:layout_editor_absoluteX="35dp"
+            tools:layout_editor_absoluteY="156dp" />
+
+        <TextView
+            android:id="@+id/ASQ_queue_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="queue_2"
+            android:textSize="30dp"
+            tools:layout_editor_absoluteX="35dp"
+            tools:layout_editor_absoluteY="156dp" />
+
+        <TextView
+            android:id="@+id/ASQ_queue_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="queue_3"
+            android:textSize="30dp"
+            tools:layout_editor_absoluteX="35dp"
+            tools:layout_editor_absoluteY="156dp" />
+
+        <TextView
+            android:id="@+id/ASQ_queue_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="queue_4"
+            android:textSize="30dp"
+            tools:layout_editor_absoluteX="35dp"
+            tools:layout_editor_absoluteY="156dp" />
+        <TextView
+            android:id="@+id/ASQ_queue_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="queue_5"
+            android:textSize="30sp"
+            tools:layout_editor_absoluteX="35dp"
+            tools:layout_editor_absoluteY="156dp" />
+
+        <TextView
+            android:id="@+id/ASQ_queue_6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="queue_6"
+            android:textSize="30dp"
+            tools:layout_editor_absoluteX="35dp"
+            tools:layout_editor_absoluteY="156dp" />
+
+        <TextView
+            android:id="@+id/ASQ_queue_7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="queue_7"
+            android:textSize="30dp"
+            tools:layout_editor_absoluteX="35dp"
+            tools:layout_editor_absoluteY="156dp" />
+
+        <TextView
+            android:id="@+id/ASQ_queue_8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="queue_8"
+            android:textSize="30dp"
+            tools:layout_editor_absoluteX="35dp"
+            tools:layout_editor_absoluteY="156dp" />
+    </TableLayout>
+
+
+
+
+</android.support.constraint.ConstraintLayout>

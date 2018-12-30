@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">My Turn</string>
+    <string name="register">register!</string>
+    <string name="enter_phone_number">Enter Phone Number</string>
+    <string name="enter_e_mail">Enter E-mail</string>
+    <string name="select_password">Select Password</string>
+    <string name="select_user_name">Select User Name</string>
+    <string name="log_in">Log-in</string>
+    <string name="user_name">User Name</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="title_activity_manager_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_login">Login</string>
+    <string name="already_registered_sign_in_here">already registerd? sign in here!</string>
+</resources>
